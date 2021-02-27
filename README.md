@@ -1,4 +1,4 @@
-# IT115-web-dash-app-repo
+# IT115-webapp-repo
 
 ### Links:
 
