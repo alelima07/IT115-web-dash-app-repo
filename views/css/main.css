@@ -1,0 +1,460 @@
+
+
+* { 
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;} 
+
+
+
+body { 
+    font-family: vernanda, helvetica, sans-serif;
+    font-size: 100%;
+    background: white;
+    } 
+
+img { 
+     max-width: 100%;
+    max-height: 100%;
+    display: block;}
+
+
+/* START OF INTRODUCTION PAGE*/
+
+
+#intro-Page-Body{ 
+   background-image: url(../images/introPhoto1.jpg); 
+   background-repeat: no-repeat; 
+   background-size: 50%; 
+   background-position: center;
+   background-size: 45em;
+   background-position-y: 0px;
+
+   
+}
+
+#btnContainer{ 
+   margin: 0 auto;
+}
+
+
+
+#linkBtn{ 
+    color: white;
+    z-index: 1000;
+    position: fixed; 
+    top: 450px;
+    left: 20%;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-style: italic;
+    background:#00DFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+
+#linkBtn2{ 
+    cursor: grabbing;
+    color: white;
+    z-index: 1000;
+    position: fixed; 
+    top: 450px;
+    right: 20%;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-style: italic;
+    background:#00DFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+/* END OF INTRODUCTION PAGE*/
+
+
+/* START OF HOME PAGE*/
+
+#logo { 
+    width: 200px; 
+    height: 200px;
+    margin: 0 auto;}
+
+   
+a {   /*color of links (a href)  */
+    color: black; 
+}
+
+/* start of fabricons */
+#awesome{ 
+    float: right;
+    width: 15%;
+
+}
+
+#font-awesome { 
+    list-style: none;
+    color: black;} 
+
+#awesome li { 
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;}
+
+
+header {
+    width: 100%; 
+    background:white;
+    margin-bottom: 50px;
+    border-bottom: 2px solid  #00DFFF;
+} 
+
+#home-header{ 
+    height: 1000px;
+    background-image: url(../images/bonkaislide1.png) ;
+    background-repeat: no-repeat; 
+    background-size: 100%;
+   
+    
+}
+
+.boxes{ 
+    
+    width: 25%; 
+    height: 500px; 
+    float: left; 
+    border: 2px black solid;
+    color: grey;
+}
+
+#home-box-nav{ 
+    background:rgb(168,168,168, .5) ;
+    border-radius: 25px;
+    width: 75%; 
+    height: 75%; 
+    margin: 10% auto; 
+    text-align: center; 
+    padding-top: 35%;
+    font-size: 2.5em;
+    
+} 
+
+.boxes:hover{ 
+    color:black;
+
+}
+
+
+
+/*start of drop down navigation*/ 
+nav {
+    background: white;
+    clear: both;
+    top: 100px;
+    margin-top: 100xp;
+    }
+
+
+.nav {
+  
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    padding: 0;
+    width: 70%;
+    float: right; 
+    margin-right: 10px;
+    font-size: 1.5em;
+    
+}
+
+.nav li {
+    float: left;
+    width: 20%; 
+    list-style: none;
+    text-align: center;
+    
+    
+}
+
+.nav .button-dropdown {
+    position: relative;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    clear: both;
+    text-decoration: none;
+    
+}
+
+.nav li a span {        /*controls the arrow in navigation  */
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 15px;
+    color: black;
+    
+} 
+
+.nav li a:hover, .nav li a.dropdown-toggle.active {
+    background-color:#00DFFF; /*changed hover color to black*/
+    width: 100%;
+    color: white;
+}
+
+.nav li a:hover span, .nav li a.dropdown-toggle.active span {
+    color: white;
+}
+
+.nav li .dropdown-menu {
+    display: none;
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 0px;
+    text-align: left;
+    font-size: .750em;
+}
+
+.nav li .dropdown-menu li{
+    float: none;
+    width: 100%;
+    text-align: center;
+} 
+
+
+
+.nav li .dropdown-menu.active {
+   
+  
+}
+
+.nav li .dropdown-menu a {
+   
+    text-align: center;
+    background:#00DFFF;
+    
+}
+
+/*end of navigation*/
+
+
+.wrapper{ 
+    margin: 0 300px; 
+    width: 80%; 
+    background: purple;
+   
+}
+
+#home-body{ 
+    background: red;
+}
+
+#jose-intro { 
+    width: 100%;
+    height: 800px;
+    background: blue;
+    margin-bottom: 150px;
+    
+}
+
+
+.jose-boxes{ 
+    width: 50%; 
+    float: left;
+    height:100%; 
+    background: #00DFFF; 
+    border-left: 2px solid black; 
+    
+}
+
+#jose{ 
+    margin-left: 100px;
+}
+
+#introduction{ 
+    margin-left: 100px;
+}
+
+#introduction-paragraph{ 
+   padding: 30px; 
+   line-height: 1.25em;
+    padding: 50px;
+    font-size:1em;
+}
+#side-nav { 
+    position: absolute;
+    width: 10%; 
+    margin-left: 35px;
+    background: green; 
+    height: 900px; 
+    clear: left;
+}
+
+/* END OF HOME PAGE*/
+
+/* START OF GALLERY */
+#gal-Wrapper{ 
+    width: 80%; 
+    background: white; 
+    margin: 0 auto; 
+
+} 
+
+/* start of tab buttons */
+.tab{ 
+    overflow:hidden; 
+    border: 1px solid #00DFFF; 
+    background-color:white;
+}
+
+.tab button{ 
+    background-color: inherit; 
+    float: left; 
+    border: none; 
+    outline: none; 
+    cursor: pointer;
+    padding: 14px 16px; 
+    transition: 0.2s; 
+    font-size: 1.25em;
+}
+
+.tab button:hover{ 
+    background-color: #00DFFF; 
+}
+
+.tab button.active { 
+    background: #00DFFF;
+    
+}
+/* end of tab buttons */
+
+/* start of photos within tab catagories */
+.tabcontent{ 
+    display: none;
+    padding: 16px 12px; 
+    border-top: none;
+    height: 1000px;
+    
+}
+
+ #instagram-gallery-photo{ 
+    width: 32%; 
+    border: solid 1px black;
+    float: left; 
+    margin-left: 1%; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+#instagram-gallery-photo:nth-child(1){ 
+  
+    margin-left: 1%;
+}
+
+#instagram-gallery-photo:nth-child(2){ 
+    float: right;
+    margin-right: 1%;
+}
+/* end of photos within tab catagories */
+
+/* END OF GALLERY */
+
+/* START OF CONTACTS PAGE*/
+#jose-castro{ 
+    width: 100%; 
+    background: #00DFFF; 
+}
+
+#jose-picture{ 
+    width: 300px; 
+    height: 300px; 
+    background: grey; 
+}
+
+
+
+#possible-job{ 
+    width: 100%; 
+    height: 60px;
+    background: green; 
+}
+
+
+#client_Info{ 
+    width: 35%; 
+    overflow: inherit; 
+    background: red;  
+    float: left;
+} 
+
+#client_Info:nth-child(2){ 
+    background: green;
+    width: 65%; 
+    padding-left: 10px;
+}
+
+.form-greet{ 
+    font-size: 1.5em;
+}
+
+.form-greet:nth-child(2){ 
+    margin-top:5px; 
+    font-size: 1em;
+    line-height: 1.5em;
+
+}
+
+.user_Input{ 
+    height: 35px; 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 2px solid #00DFFF;
+}
+
+#submit { 
+    background: #00DFFF;
+    border-radius: 4px;
+    border-bottom: 2px solid black; 
+    border-right: 1px solid black;
+    width: 100px; 
+   
+}
+/* END OF CONTACTS PAGE*/
+
+
+
+
+
+/*BUTTONS*/
+ 
+@font-face {
+    font-family: 'aileronregular';
+    src: url('fonts/Aileron-Regular-webfont.eot');
+    src: url('fonts/Aileron-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Aileron-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Aileron-Regular-webfont.woff') format('woff'),
+         url('fonts/Aileron-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Aileron-Regular-webfont.svg#aileronregular') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+
+@font-face {
+font-family: 'flexslider-icon';
+src:url('.../fonts/flexslider-icon.eot');
+src:url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/flexslider-icon.woff') format('woff'),
+    url('../fonts/flexslider-icon.ttf') format('truetype'),
+    url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+font-weight: normal;
+font-style: normal}
+
+.nav-button { display: none; }
+
